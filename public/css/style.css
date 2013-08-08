@@ -1,3 +1,36 @@
 body{
 	background-image:url("../img/bg.jpg");
+	margin:0;
+}
+
+.menu{
+
+}
+
+ul.nav{
+	background-color: #161616;
+	padding: 0 20px;
+	margin: 0;
+}
+
+.menu ul li{
+
+	text-transform: uppercase;
+	display: inline-block;
+	list-style:none;
+	padding:15px;
+}
+
+ul.nav a:after{
+	content: "|";
+	color:#fff;
+}
+
+.menu ul  a li{
+	color:#fff;
+	text-decoration: none;
+}
+
+.menu ul li:hover{
+	background-color: #4B525B;
 }

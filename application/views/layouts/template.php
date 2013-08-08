@@ -16,6 +16,14 @@
 
 	</head>
 	<body>
+		<div class="menu">
+			<ul class="nav">
+				<a href="<?php echo base_url(); ?>"><li>Home</li></a>
+				<a href="<?php echo base_url(); ?>formulario"><li>Formulario</li></a>
+				<a href="<?php echo base_url(); ?>formulario/add"><li>Valida Formualario</li></a>
+			</ul>
+		</div>
+
 		<?php echo $content_for_layout; ?>
 
 	</body>
