@@ -66,17 +66,20 @@ class Formulario extends CI_Controller
         public function add(){
             $this->layout->setTitle("Validando formulario");
 
-
-            $this->form_validation->set_rules('nom', 'Nombre', 'required|min_length[3]');
-            $this->form_validation->set_rules('tel', 'Teléfono', 'numeric|min_length[7]');
-            $this->form_validation->set_rules('correo', 'E-Mail', 'required|valid_email');
-            $this->form_validation->set_rules('des', 'Descripción', 'required|max_length[200]');
-
-            if ($this->form_validation->run()==true)
-                {
-                    echo "entro a las validaciones";exit;
-                }
+             if($this->input->post())
+            {
+                /*validacion de campo en campo
+                $this->form_validation->set_rules('nom', 'Nombre', 'required|min_length[3]');
+                $this->form_validation->set_rules('tel', 'Teléfono', 'numeric|min_length[7]');
+                $this->form_validation->set_rules('correo', 'E-Mail', 'required|valid_email');
+                $this->form_validation->set_rules('des', 'Descripción', 'required|max_length[200]');*/
+                #if ($this->form_validation->run()==true)
+                 if ($this->form_validation->run("formulario/add"))
+                    {
+                        echo "entro a las validaciones";exit;
+                    }
+            }
 
             $this->layout->view("add");
-        }
+        }#end add
 }#end class
