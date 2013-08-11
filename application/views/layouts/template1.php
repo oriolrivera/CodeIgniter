@@ -31,6 +31,7 @@
 							<li><a href="<?php echo base_url(); ?>basedatos/usando_where/1">Select usando where</a></li>
 						</ul>
 					</li>
+					<li><a href="<?php echo base_url(); ?>crud">Crud</a></li>
 
 			</ul>
 		</div>

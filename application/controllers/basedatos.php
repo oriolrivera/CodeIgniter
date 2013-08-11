@@ -28,8 +28,9 @@ class basedatos extends CI_Controller
 
         public function usando_where($id=null)
         {
+        	$this->layout->setTitle("Select usando where");
         	$datos=$this->personas_model->getPersonasPorId($id);
-        $this->layout->view('usando_where',compact("datos"));
+        	$this->layout->view('usando_where',compact("datos"));
         }
 
 }#end class

@@ -3,6 +3,62 @@ body{
 	margin:0;
 }
 
+#mytable th{
+	border:solid 1px #DDDDDD;
+}
+
+#mytable tbody td{
+    border-bottom: solid 1px gray;
+	padding: 15px;
+}
+
+tbody tr:hover{
+	background-color: #ddd;
+}
+
+#mytable thead{
+
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+#mytable thead th{
+
+	padding: 15px;
+}
+
+.agregar{
+	margin-bottom: 20px;
+}
+
+.btn{
+	 background: #555;
+    background: -moz-linear-gradient(#555,#222);
+    background: -webkit-linear-gradient(#555,#222);
+    background: -o-linear-gradient(#555,#222);
+    background: -ms-linear-gradient(#555,#222);
+    background: linear-gradient(#555,#222);
+    border-radius: 5px;
+	color: #ccc;
+	text-decoration: none;
+	margin-left: 685px;
+	padding: 8px;
+}
+
+.btn:hover{
+	color:#fff;
+}
+
+
 /*.menu{
 
 }
