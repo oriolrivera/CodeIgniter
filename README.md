@@ -17,5 +17,7 @@
 	<li>Select usando where.</li>
 	<li>Crud gestor personas.</li>
 	<li>Crud crear persona.</li>
+	<li>Crud editar persona.</li>
+
 
 </ul>

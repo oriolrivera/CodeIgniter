@@ -41,4 +41,12 @@
 	    	return true;
 	    }#end insertar_persona
 
+	    public function modificar_persona($datos=array(),$id){
+	    	$this->db->where('id',$id);
+	    	$this->db->update('personas',$datos);
+	    	return true;
+	    }#end modificar_persona
+
+
+
 	}#end class
