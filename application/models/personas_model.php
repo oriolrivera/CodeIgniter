@@ -14,4 +14,26 @@
 			return $query->result();
 		}
 
+		public function getPersonas2(){
+
+			$query=$this->db
+			->select("id,nombre,correo,telefono as tel, fecha")
+			->from("personas")
+			->order_by("id","desc")
+			->get();
+			return $query->result_array();
+
+		}#end getPersonas2
+
+		 public function getPersonasPorId($id)
+	    {
+	        $where=array("id"=>$id);
+	        $query=$this->db
+	        ->select("id,nombre,correo,telefono as tel,fecha")
+	        ->from("personas")
+	        ->where($where)
+	        ->get();
+	        return $query->row();
+	    }
+
 	}#end class

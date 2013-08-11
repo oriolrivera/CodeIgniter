@@ -13,5 +13,7 @@
 	<li>Cambio de idioma de los msg de errores a español.</li>
 	<li>Trabajando con clase Database y MySQL.</li>
 	<li>Trabajando consultas SELECT con result.</li>
+	<li>Trabajando consultas SELECT usando result array.</li>
+	<li>Select usando where.</li>
 
 </ul>

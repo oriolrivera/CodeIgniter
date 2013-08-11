@@ -27,8 +27,8 @@
 						<a href="#">Base de datos</a>
 						<ul>
 							<li><a href="<?php echo base_url(); ?>basedatos">Select con resulst</a></li>
-							<li><a href="">prueba</a></li>
-							<li><a href="">prueba</a></li>
+							<li><a href="<?php echo base_url(); ?>basedatos/usando_result_array">Select usando result array</a></li>
+							<li><a href="<?php echo base_url(); ?>basedatos/usando_where/1">Select usando where</a></li>
 						</ul>
 					</li>
 
