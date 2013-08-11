@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'pru';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['username'] = 'user';
+$db['default']['password'] = 'pass';
+$db['default']['database'] = 'db';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
