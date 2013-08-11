@@ -3,7 +3,7 @@ body{
 	margin:0;
 }
 
-/*.menu{
+.menu{
 
 }
 
@@ -33,4 +33,4 @@ ul.nav a:after{
 
 .menu ul li:hover{
 	background-color: #4B525B;
-}*/
+}
