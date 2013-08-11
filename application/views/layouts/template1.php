@@ -26,7 +26,7 @@
 					<li>
 						<a href="#">Base de datos</a>
 						<ul>
-							<li><a href="">prueba</a></li>
+							<li><a href="<?php echo base_url(); ?>basedatos">Select con resulst</a></li>
 							<li><a href="">prueba</a></li>
 							<li><a href="">prueba</a></li>
 						</ul>

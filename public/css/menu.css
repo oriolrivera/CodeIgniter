@@ -77,6 +77,7 @@
     -o-transition: opacity .25s ease .1s;
     -ms-transition: opacity .25s ease .1s;
     transition: opacity .25s ease .1s;
+
   }
   /* son visibes al poner el cursor encima */
   .mi-menu li:hover > ul { opacity: 1; }
@@ -104,7 +105,7 @@
     margin: 0;
     /* el ancho dependerá de los textos a utilizar */
     padding: 5px 20px;
-    width: 100px;
+    width:300px;
   }
   /* el último n otiene un borde */
   .mi-menu ul li:last-child a { border: none; }
