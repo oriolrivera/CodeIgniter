@@ -6,6 +6,7 @@
 		<meta name="description" content="<?php echo $this->layout->getDescripcion(); ?>">
 		<meta name="keywords" content="<?php echo $this->layout->getKeywords(); ?>" />
 		<link rel="stylesheet" href="<?php echo base_url()?>public/css/style.css">
+		<link rel="stylesheet" href="<?php echo base_url()?>public/css/menu.css">
 		     <!--*************auxiliares*****************-->
 
 			<?php echo $this->layout->css; ?>
@@ -17,15 +18,20 @@
 	</head>
 	<body>
 		<div class="menu">
-			<ul class="nav">
-				<a href="<?php echo base_url(); ?>"><li>Home</li></a>
-				<a href="<?php echo base_url(); ?>formulario"><li>Formulario</li></a>
-				<a href="<?php echo base_url(); ?>formulario/add"><li>Valida Formualario</li></a>
-				<a href="#">
+			<ul class="mi-menu">
+				<li><a href="<?php echo base_url(); ?>">Home</a></li>
+				<li><a href="<?php echo base_url(); ?>formulario">Formulario</a></li>
+				<li><a href="<?php echo base_url(); ?>formulario/add">Valida Formualario</a></li>
+
 					<li>
-						Base de datos
+						<a href="#">Base de datos</a>
+						<ul>
+							<li><a href="">prueba</a></li>
+							<li><a href="">prueba</a></li>
+							<li><a href="">prueba</a></li>
+						</ul>
 					</li>
-				</a>
+
 			</ul>
 		</div>
 

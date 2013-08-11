@@ -10,5 +10,7 @@
 	<li>Validando formulario con libreria form_validation.</li>
 	<li>Implementación de libreria personal (MY_Form_validation.php) para validar campo tipo select y
 		Creación de form_validation.php para validar campos de formulario de manera externa.</li>
-		<li>Cambio de idioma de los msg de errores a español.</li>
+	<li>Cambio de idioma de los msg de errores a español.</li>
+
+
 </ul>

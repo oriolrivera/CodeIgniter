@@ -5,7 +5,7 @@ class Index extends CI_Controller {
 	public function __construct()
     {
         parent::__construct();
-        $this->layout->setLayout('template');
+        $this->layout->setLayout('template1');
     }
 
 	public function index()
