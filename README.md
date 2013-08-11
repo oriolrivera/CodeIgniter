@@ -15,6 +15,7 @@
 	<li>Trabajando consultas SELECT con result.</li>
 	<li>Trabajando consultas SELECT usando result array.</li>
 	<li>Select usando where.</li>
-	<li>Crud gestor personas</li>
+	<li>Crud gestor personas.</li>
+	<li>Crud crear persona.</li>
 
 </ul>

@@ -36,4 +36,9 @@
 	        return $query->row();
 	    }
 
+	    public function insertar_persona($datos=array()){
+	    	$this->db->insert("personas",$datos);
+	    	return true;
+	    }#end insertar_persona
+
 	}#end class

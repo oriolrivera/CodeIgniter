@@ -1,4 +1,15 @@
 <h1>Crud gestor personas</h1>
+
+<?php
+	if ($this->session->flashdata('ControllerMessage') != '') {
+		?>
+		<div class="box-msg">
+			<p><?php echo $this->session->flashdata('ControllerMessage'); ?></p>
+		</div>
+		<?php
+	}
+ ?>
+
 <div class="agregar">
  	<a href="<?php echo base_url()?>crud/add" class="btn">Agregar</a>
 </div>

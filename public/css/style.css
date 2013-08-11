@@ -58,6 +58,15 @@ tbody tr:hover{
 	color:#fff;
 }
 
+.box-msg{
+	background-color: #D9EDF7;
+	padding: 5px;
+}
+
+.box-msg p{
+	color: #3A87AD;
+	font-weight: bold;
+}
 
 /*.menu{
 
