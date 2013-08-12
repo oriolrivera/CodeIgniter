@@ -37,7 +37,8 @@
         <td><?php echo $dato->tel?></td>
         <td><?php echo $dato->fecha?></td>
         <td>
-            <a href="<?php echo base_url(); ?>crud/edit/<?php echo $dato->id?>">Editar</a> || <a href="">Eliminar</a>
+            <a href="<?php echo base_url(); ?>crud/edit/<?php echo $dato->id?>">Editar</a> ||
+            <a href="javascript:void(0);" onclick="eliminar('<?php echo base_url()?>crud/delete/<?php echo $dato->id?>')">Eliminar</a>
         </td>
     </tr>
         <?php

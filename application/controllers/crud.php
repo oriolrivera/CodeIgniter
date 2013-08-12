@@ -10,6 +10,8 @@ class Crud extends CI_Controller {
 
     public function index(){
     	$this->layout->setTitle("Gestor personas");
+    	//llamamos a una librería js
+        $this->layout->js(array(base_url()."public/js/funciones.js"));
 
     	$datos=$this->personas_model->getPersonas();
     	$this->layout->view("index",compact("datos"));
@@ -85,6 +87,24 @@ class Crud extends CI_Controller {
 	    $datos=$this->personas_model->getPersonasPorId($id);
     	$this->layout->view("edit",compact("id","datos"));
     }#end edit
+
+    public function delete($id=null)
+    {
+    	if (!$id) {
+    		show_404();
+    	}
+
+    	$guardar=$this->personas_model->eliminar($id);
+    	if ($guardar) {
+    		      $this->session->set_flashdata("ControllerMessage","Se ha eliminado el registro exitosamente");
+            redirect(base_url()."crud",310);
+        }else
+        {
+            $this->session->set_flashdata("ControllerMessage","Se ha producido un error. Inténtelo nuevamente por favor.");
+            redirect(base_url()."crud",310);
+        }
+
+    }#end delete
 
 }#end class
 

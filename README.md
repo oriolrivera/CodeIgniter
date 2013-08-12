@@ -18,6 +18,7 @@
 	<li>Crud gestor personas.</li>
 	<li>Crud crear persona.</li>
 	<li>Crud editar persona.</li>
+	<li>Crud eliminar persona.</li>
 
 
 </ul>

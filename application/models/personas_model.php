@@ -47,6 +47,11 @@
 	    	return true;
 	    }#end modificar_persona
 
+	    public function eliminar($id){
+	    	$this->db->delete('personas',array('id' => $id));
+	    	return true;
+	    }#end delete
+
 
 
 	}#end class

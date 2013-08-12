@@ -7,6 +7,7 @@
 		<meta name="keywords" content="<?php echo $this->layout->getKeywords(); ?>" />
 		<link rel="stylesheet" href="<?php echo base_url()?>public/css/style.css">
 		<link rel="stylesheet" href="<?php echo base_url()?>public/css/menu.css">
+
 		     <!--*************auxiliares*****************-->
 
 			<?php echo $this->layout->css; ?>
